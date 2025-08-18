@@ -2,7 +2,7 @@
 /*
 Plugin Name: JOLT Cleanify
 Description: Simple plugin to clean WordPress cache and database from an admin page. Includes a Quick Clean button in the admin bar.
-Version: 1.2
+Version: 1.0.3
 Author: JOLT (johnoltmans)
 */
 
@@ -18,7 +18,7 @@ add_action('admin_enqueue_scripts', function() {
 // Add admin menu
 add_action('admin_menu', 'jolt_cleanify_add_admin_menu');
 function jolt_cleanify_add_admin_menu() {
-    add_menu_page(
+    add_options_page(
         'JOLT Cleanify',
         'JOLT Cleanify',
         'manage_options',
@@ -35,41 +35,14 @@ function jolt_cleanify_admin_bar($wp_admin_bar) {
     if (!current_user_can('manage_options')) return;
 
     $wp_admin_bar->add_node([
-        'id'    => 'jolt_cleanify_quick_clean',
-        'title' => 'JOLT Quick Clean',
-        'href'  => '#',
+        'id'    => 'jolt_cleanify_cache_cleaner',
+        'title' => 'JOLT Cache Cleaner',
+        'href'  => admin_url('admin.php?page=jolt-cleanify'),
         'meta'  => [
-            'title' => 'Quickly clear WordPress cache',
-            'onclick' => 'joltCleanifyQuickClean(); return false;',
+            'title' => 'Go to JOLT Cleanify settings',
         ]
     ]);
 }
-
-// Add the JavaScript for quick clean functionality
-add_action('admin_head', function() {
-    ?>
-    <script>
-    function joltCleanifyQuickClean() {
-        if (confirm("Are you sure you want to clear the cache? This will remove temporary cached data, but will not affect your posts or comments.")) {
-            jQuery.post(ajaxurl, {action: 'jolt_cleanify_quick_clean'}, function(response) {
-                if (response && response.success) {
-                    alert(response.data ? response.data : "Cache cleared!");
-                } else {
-                    alert("Could not clear cache.");
-                }
-            });
-        }
-    }
-    </script>
-    <?php
-});
-
-// Handle AJAX request for quick clean
-add_action('wp_ajax_jolt_cleanify_quick_clean', function() {
-    if (!current_user_can('manage_options')) wp_send_json_error('Permission denied');
-    $cleared = jolt_cleanify_clear_cache();
-    wp_send_json_success("$cleared transients deleted.");
-});
 
 // Admin page content
 function jolt_cleanify_admin_page() {
