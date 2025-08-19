@@ -6,7 +6,7 @@ Description: Simple plugin to clean WordPress cache and database from an admin p
 Version: 1.0.7
 Author: John Oltmans
 Author URI: https://www.johnoltmans.nl/
-License: GPL 3.0
+License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 */
 
