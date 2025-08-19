@@ -115,7 +115,7 @@ function jolt_cleanify_admin_page() {
     }
     </style>
     <div class="wrap jolt-cleanify-bg">
-         <img src="<?php echo plugins_url('source/jolt cleanify small.jpg', __FILE__); ?>" height="200">
+         <img src="<?php echo plugins_url('assets/jolt cleanify small.jpg', __FILE__); ?>" height="200">
         
         <p>
             <strong>Welcome to JOLT Cleanify!</strong> This plugin helps you keep your WordPress site running smoothly by allowing you to quickly clear cached data and clean up your database.<br>
