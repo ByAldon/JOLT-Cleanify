@@ -1,9 +1,11 @@
 <?php
 /*
 Plugin Name: JOLT Cleanify
+Plugin URI: https://github.com/johnoltmans/JOLT-Cleanify
 Description: Simple plugin to clean WordPress cache and database from an admin page. Includes a quick link in the admin bar.
 Version: 1.0.7
-Author: JOLT (johnoltmans)
+Author: John Oltmans
+Author URI: https://www.johnoltmans.nl/
 */
 
 if (!defined('ABSPATH')) {
