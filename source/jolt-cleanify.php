@@ -4,11 +4,37 @@ Plugin Name: JOLT Cleanify
 Plugin URI: https://github.com/johnoltmans/JOLT-Cleanify
 Description: Simple plugin to clean WordPress cache and database from an admin page. Includes a quick link in the admin bar.
 Version: 1.0.7
+Requires at least: 6.8
+Requires PHP: 7.4
 Author: John Oltmans
 Author URI: https://www.johnoltmans.nl/
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: simple-plugin-for-a-clean-wordpress-by-john-oltmans
 */
+
+/*
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+*/
+
+// Add Settings link next to Deactivate in Plugins overview
+add_filter('plugin_action_links_' . plugin_basename(__FILE__), function($links) {
+    $settings_link = '<a href="' . admin_url('options-general.php?page=jolt-cleanify') . '">Settings</a>';
+    $links[] = $settings_link;
+    return $links;
+});
 
 if (!defined('ABSPATH')) {
     exit;
