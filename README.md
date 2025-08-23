@@ -4,12 +4,12 @@
 
 Simple plugin to clean WordPress cache and database from an admin page. <br>Includes a Quick Clean button in the admin bar.<br>
 
-All the plugins and or themes that i present to you are [privacy focussed, secure and open source](https://github.com/johnoltmans/WordPress/blob/main/SECURITY.md).
+All the plugins and or themes that i present to you are [privacy focussed, secure and open source](https://github.com/DevAldon/WordPress/blob/main/SECURITY.md).
 
 #
 ### Download your plugin here
-You can download your plugin [here](https://github.com/johnoltmans/JOLT-Cleanify/archive/refs/heads/main.zip).<br>
-You can read how to install [here](https://github.com/johnoltmans/WordPress/wiki/How-to-install-the-plugins).
+You can download your plugin [here](https://github.com/DevAldon/JOLT-Cleanify/archive/refs/heads/main.zip).<br>
+You can read how to install [here](https://github.com/DevAldon/WordPress/wiki/How-to-install-the-plugins).
 #
 
 <img width="651" height="210" alt="afbeelding" src="https://github.com/user-attachments/assets/7ab2aebb-8726-40e6-80a3-c53c57e16fcc" />
@@ -20,5 +20,5 @@ You can read how to install [here](https://github.com/johnoltmans/WordPress/wiki
 ## 🛡 Security, Privacy & Usage Policy
 
 To read more about my Security, privacy and Usage Policy,<br>
-Please follow this link: https://github.com/johnoltmans/WordPress/blob/main/SECURITY.md
+Please follow this link: https://github.com/DevAldon/WordPress/blob/main/SECURITY.md
 
