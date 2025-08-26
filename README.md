@@ -14,9 +14,7 @@ You can read how to install [here](https://github.com/DevAldon/WordPress/wiki/Ho
 
 <img width="441" height="254" alt="afbeelding" src="https://github.com/user-attachments/assets/5427855d-ce0e-46bc-b31b-57171e8b4bb0" />
 <img width="1071" height="686" alt="afbeelding" src="https://github.com/user-attachments/assets/d376754c-f3fa-497e-bfec-1666e64fc969" />
-
-<img width="339" height="436" alt="afbeelding" src="https://github.com/user-attachments/assets/549510de-4be7-4459-b09f-f20dd078e447" />
-
+<img width="383" height="350" alt="afbeelding" src="https://github.com/user-attachments/assets/d69ee6df-6927-41be-b60d-c18dd63264ce" />
 
 ## 🛡 Security, Privacy & Usage Policy
 
