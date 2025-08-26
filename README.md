@@ -12,8 +12,9 @@ You can download your plugin [here](https://github.com/DevAldon/JOLT-Cleanify/ar
 You can read how to install [here](https://github.com/DevAldon/WordPress/wiki/How-to-install-the-plugins).
 #
 
-<img width="651" height="210" alt="afbeelding" src="https://github.com/user-attachments/assets/7ab2aebb-8726-40e6-80a3-c53c57e16fcc" />
-<img width="1201" height="696" alt="afbeelding" src="https://github.com/user-attachments/assets/fb8eee40-33a3-4afe-86a9-386595d130c2" />
+<img width="441" height="254" alt="afbeelding" src="https://github.com/user-attachments/assets/5427855d-ce0e-46bc-b31b-57171e8b4bb0" />
+<img width="1071" height="686" alt="afbeelding" src="https://github.com/user-attachments/assets/d376754c-f3fa-497e-bfec-1666e64fc969" />
+
 <img width="339" height="436" alt="afbeelding" src="https://github.com/user-attachments/assets/549510de-4be7-4459-b09f-f20dd078e447" />
 
 
