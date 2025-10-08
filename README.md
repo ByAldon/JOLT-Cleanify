@@ -1,5 +1,4 @@
-<h1>JOLT Cleanify</h1>
-<img src="https://github.com/user-attachments/assets/52b9b86f-ffba-4aea-8e01-8adf85d5a848" alt="Image for the wordpress plugin" width="300" >
+<h1>Aldon Cleanify</h1>
 
 
 Simple plugin to clean WordPress cache and database from an admin page. <br>Includes a Quick Clean button in the admin bar.<br>
